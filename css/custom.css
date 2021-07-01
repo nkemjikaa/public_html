@@ -31,26 +31,66 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Method to declare your own fonts */
+@font-face {
+   font-family: cocaColaFont;
+   src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+@font-face {
+   font-family: OpenSans;
+   src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: Oswald;
+   src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
 body {
-   padding-top: 30px;
-   padding-bottom: 5px;
-   background-color: rgba(182, 231, 243, 1.0);
+    padding-top: 30px;
+    padding-bottom: 5px;
+    background-color: rgba(182, 231, 243, 1.0);
 }
 /* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
 p {
-  font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /*font-family: 'Oswald', sans-serif;*/
-  font-family: cocaColaFont;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: cocaColaFont;
 }
 
-body {
-   background-color: rgba(182, 231, 243, 1.0);
-}
-
-.main_contents {
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+  body{
+   background-color: rgba(182,231,243,1.0);
+  }
+  .main_contents {
    margin-top: 10px;
    margin-bottom: 10px;
 }
@@ -86,18 +126,26 @@ body {
    margin: 0px;
    line-height: 1.2;
 } 
-
-
-
-
-/* Small devices (landscape phones, 576px and up)
-*/
-@media (min-width: 576px) {
-   /* CSS rule to style the footer */
-.footer {
-   background-color: #257600;
-   height: 60px;
 }
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
 
 .navbar-text > a {
    font-size: 10px;
@@ -114,8 +162,6 @@ body {
 
 .social {
    padding-top: 7px;
-}
-
 }
 
 .btn-responsive {
@@ -154,40 +200,6 @@ body {
     border: 1px solid transparent;
 }
 
-
-/* Medium devices (tablets, 768px and up)
-*/
-@media (min-width: 768px) {
-    .btn-responsive {
-        padding: 4px 9px;
-        font-size: 130%;
-        line-height: 1.2;
-    }
-}
-
-/* Large devices (desktops, 992px and up)
-*/
-@media (min-width: 992px) {
-    .btn-responsive {
-        padding: 4px 9px;
-        font-size: 130%;
-        line-height: 1.2;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up)
-*/
-@media (min-width: 1200px) {}
-
-/* Method to declare your own fonts */
-@font-face {
-	font-family: cocaColaFont;
-	src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
-}
-
-/* Extra small devices (portrait phones, less than 576px)
-   No media query since this is the default in Bootstrap
-*/
 
 /* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
 p {
