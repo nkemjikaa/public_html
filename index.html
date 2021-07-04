@@ -24,11 +24,11 @@
         <!-- Brand -->
         <a class="navbar-brand" href="index.html"><img src="assets/images/coca_cola_logo.png"></a>
         <!-- Collapsible Navbar Menu Icon -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse #navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Link Menu item button to the links class navbar-collapse selector-->
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
             <!-- Links-->
             <ul class="navbar-nav ml-auto">
                 <!-- Use mx-auto to align centre, default to the left or use mr-auto, these are used to pull-right -->
@@ -55,22 +55,30 @@
         </div>
     </div>
     </nav>
-
-    <br><!-- Temporary break until we style the template-->
-    <!-- Main Body-->
-    <div class="container">
-        <div class="row">
-            <!-- Main_3d Image or Carousel -->
-            <div class="col-sm-12">
-                <div id="main_3d_image">
-                    <div id="main_text" class="col-xs-12 col-sm-4">
-                        <h2>Coca Cola Great Britain</h2>
-                        <h3>Founded by Dr John S Pemberton</h3>
-                        <p>The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands </p>
-                    </div>
-                </div>
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class= "active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li> 
+    </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/main_3D.jpg">  
+                <div class="carousel-caption">
+                    <h2 class="display-2">Coca Cola Great Britain</h2>
+                    <h3>Founded by Dr John S Pemberton</h3>
+                    <p>The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands </p>
+                </div> 
             </div>
-        </div>
+            <div class="carousel-item">
+                <img src="assets/images/background1.jpg">    
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/background2.png">    
+            </div>
+    </div>
+    </div>
 
         <br><!-- Temporary break until we style the template-->
         <div class="container-fluid">
