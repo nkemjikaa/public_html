@@ -33,12 +33,12 @@ html,body {
 }
 .navbar {
    padding: .8rem;
-   background-color: #F40009;
 }
 /* Modify the background color */
           
 .bgred {
-   background: black;
+   background: #F40009;
+}
 
 
 
