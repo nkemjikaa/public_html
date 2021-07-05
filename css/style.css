@@ -1,0 +1,55 @@
+/* Method to declare your own fonts */
+@font-face {
+   font-family: cocaColaFont;
+   src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+@font-face {
+   font-family: OpenSans;
+   src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: Oswald;
+   src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+html,body {
+   height: 100%;
+   width: 100%;
+   font-family: OpenSans;
+   color: #222;
+}
+.navbar {
+   padding: .8rem;
+   color: #F40009;
+}
+.navbar-nav li{
+   padding-right: 20px;
+   color: white;
+}
+.nav-link {
+   font -size: 1.1em !important;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
