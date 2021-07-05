@@ -40,7 +40,8 @@ html,body {
 .navbar-custom {
    background-color: #F40009;
 }
-.navbar-brand,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text
  {
    color: black;
 }
