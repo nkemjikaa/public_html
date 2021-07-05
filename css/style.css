@@ -99,8 +99,13 @@ padding-left: 3px;
    position: absolute;
    top: 50%;
    transform: translateY(-50%);
-}
+} 
 
+.carousel-caption h1{
+   font-size: 500%;
+   text-transform: uppercase;
+   text-shadow: 1px 1px 10px #000;
+}
 /*---Media Queries --*/
 @media (max-width: 992px){
 
