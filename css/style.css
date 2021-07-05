@@ -34,13 +34,9 @@ html,body {
 .navbar {
    padding: .8rem;
 }
-/* Modify the background color */
-          
-.bgred {
+.bgred{
    background: #F40009;
 }
-
-
 
 .navbar-nav li{
    padding-right: 20px;
@@ -49,6 +45,51 @@ html,body {
 .nav-link {
    font -size: 1.1em !important;
 }
+/* CSS rule to style the mobile logo */
+.logo {
+margin-top: 3px;
+}
+
+.logo h1 {
+font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
+font-size: 31px;
+margin: 0;
+margin-top: -10px;
+margin-bottom: -15px;
+float: left;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 2px;
+}
+
+.logo h2 {
+font-family: cocaColaFont;
+font-size: 31px;
+margin-top: -6px;
+margin-bottom: -15px;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 3px;
+float: left;
+}
+
+.logo h3 {
+font-size: 18px;
+margin-top: 0px;
+margin-bottom: -5px;
+padding-top: 0px;
+padding-left: 0px;
+float: left;
+}
+
+.logo p {
+font-size: 7px; /* You may have to tweak this to get a good fit */
+margin-top: 22px; /* You may have to tweak this to get a good fit */
+margin-bottom: 0px;
+padding-top: 0px;
+padding-left: 3px;
+}
+
 
 /*---Media Queries --*/
 @media (max-width: 992px){
