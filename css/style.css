@@ -104,7 +104,7 @@ padding-left: 3px;
 .carousel-caption h2{
    font-size: 400%;
    text-transform: uppercase;
-   text-shadow: 20px 20px 20px #F40009;
+   text-shadow: 20px 20px 10px #F40009;
 }
 /*---Media Queries --*/
 @media (max-width: 992px){
