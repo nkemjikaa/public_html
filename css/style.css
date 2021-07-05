@@ -28,24 +28,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 html,body {
    height: 100%;
    width: 100%;
-   font-family: cocaColaFont;
+   font-family: OpenSans;
    color: #222;
 }
 .navbar {
    padding: .8rem;
    background-color: #F40009;
 }
-/* Bar Color */
-#nav, #nav-inner, .nav-list, .nav-list-item a {
-background-color: #F40009;
-color: #F40009;
-}
 
-/* Link Hover Color */
-.nav-list-item a:hover {
-background: #333;
-color: #fff;
-}
 .navbar-nav li{
    padding-right: 20px;
    color: white;
