@@ -98,7 +98,7 @@ padding-left: 3px;
 .carousel-caption {
    position: absolute;
    top: 50%;
-   transform: translateY(-30%);
+   transform: translateY(-15%);
 } 
 
 .carousel-caption h2{
