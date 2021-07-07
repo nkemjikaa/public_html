@@ -129,6 +129,11 @@ padding-left: 3px;
    color: #fff;
 }
 
+.dropdown-item:hover .dropdown-item:active{
+   background-color: #fff;
+   color: #F40009;
+}
+
  
 /*---Media Queries --*/
 @media (max-width: 992px){
