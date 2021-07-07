@@ -118,7 +118,7 @@ padding-left: 3px;
 .btn:hover, .btn:active, .btn:focus, {
    background-color: #fff;
    color: #F40009;
-   border:  1px solid #F40009;
+   border:  1px solid #fff;
 
 }
 
@@ -133,7 +133,6 @@ padding-left: 3px;
 .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus{
    background-color: #fff;
    color: #F40009;
-   border:  1px solid #F40009;
 }
 
  
