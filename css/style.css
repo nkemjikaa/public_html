@@ -126,6 +126,11 @@ padding-left: 3px;
    color:  #fff;
 }
 
+.dropdown-menu:hover{
+   background-color: #fff;
+   color: #FA0009;
+}
+
  
 /*---Media Queries --*/
 @media (max-width: 992px){
