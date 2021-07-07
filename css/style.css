@@ -115,7 +115,7 @@ padding-left: 3px;
 
 }
 
-.btn:hover{
+.btn:hover .btn:active{
    background-color: #fff;
    color: #F40009;
    border:  1px solid #fff;
