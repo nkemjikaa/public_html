@@ -122,20 +122,6 @@ padding-left: 3px;
 
 }
 
-.dropdown-menu .nav-item .dropdown{
-   background-color: ##fff;
-   color: #F40009;
-   border: 1px solid #fff;
- 
-}
-
-.dropdown-menu: hover{
- 
-   background-color: ##F40009;
-   color: #fff;
-   border: 1px solid #fff;
- 
-}
  
 /*---Media Queries --*/
 @media (max-width: 992px){
