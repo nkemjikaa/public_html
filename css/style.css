@@ -115,17 +115,13 @@ padding-left: 3px;
 
 }
 
-.btn:hover{
+.btn:hover, .btn:active, .btn:focus{
    background-color: #fff;
    color: #F40009;
    border:  1px solid #fff;
 
 }
-.btn:active{
-   background-color: #fff;
-   color: #F40009;
-   border:  1px solid #fff;
-}
+
 .dropdown-menu{
    background-color: #F40009;
    color:  #fff;
@@ -134,11 +130,7 @@ padding-left: 3px;
    color: #fff;
 }
 
-.dropdown-item:hover{
-   background-color: #fff;
-   color: #F40009;
-}
-.dropdown-item:active{
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus{
    background-color: #fff;
    color: #F40009;
 }
