@@ -115,11 +115,16 @@ padding-left: 3px;
 
 }
 
-.btn:hover .btn:active{
+.btn:hover{
    background-color: #fff;
    color: #F40009;
    border:  1px solid #fff;
 
+}
+.btn:active{
+   background-color: #fff;
+   color: #F40009;
+   border:  1px solid #fff;
 }
 .dropdown-menu{
    background-color: #F40009;
@@ -129,7 +134,11 @@ padding-left: 3px;
    color: #fff;
 }
 
-.dropdown-item:hover .dropdown-item:active{
+.dropdown-item:hover{
+   background-color: #fff;
+   color: #F40009;
+}
+.dropdown-item:active{
    background-color: #fff;
    color: #F40009;
 }
