@@ -109,7 +109,9 @@ padding-left: 3px;
 
 .btn{
    background-color: #F40009;
+   color: #fff;
    border:  1px solid #fff;
+
 
 }
 /*---Media Queries --*/
