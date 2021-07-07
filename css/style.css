@@ -114,6 +114,13 @@ padding-left: 3px;
 
 
 }
+
+.btn:hover{
+   background-color: #fff;
+   color: #F40009;
+   border:  1px solid #fff;
+
+}
 /*---Media Queries --*/
 @media (max-width: 992px){
 
