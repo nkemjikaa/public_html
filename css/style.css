@@ -121,6 +121,10 @@ padding-left: 3px;
    border:  1px solid #fff;
 
 }
+.dropdown-menu{
+   background-color: #C1E3C1;
+   border: 1px solid #5CB85C;
+}
 
  
 /*---Media Queries --*/
