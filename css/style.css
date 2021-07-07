@@ -123,20 +123,17 @@ padding-left: 3px;
 }
 
 .dropdown-menu{
- 
-background-color: ##fff;
-color: #F40009;
- 
-border: 1px solid #fff;
+   background-color: ##fff;
+   color: #F40009;
+   border: 1px solid #fff;
  
 }
 
 .dropdown-menu: hover{
  
-background-color: ##F40009;
-color: #fff;
- 
-border: 1px solid #fff;
+   background-color: ##F40009;
+   color: #fff;
+   border: 1px solid #fff;
  
 }
  
