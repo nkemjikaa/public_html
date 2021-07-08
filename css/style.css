@@ -28,7 +28,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 html,body {
    height: 100%;
    width: 100%;
-   font-family: OpenSans;
+   font-family: Oswald;
    color: #222;
 }
 .navbar {
@@ -48,6 +48,9 @@ html,body {
 /* CSS rule to style the mobile logo */
 .logo {
 margin-top: 3px;
+}
+.logo:hover{
+   color: #000;
 }
 
 .logo h1 {
@@ -145,6 +148,13 @@ padding-left: 3px;
 }
 .bot{
    max-width: 100%;
+}
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover
+{
+   color: #000;
 }
 
  
