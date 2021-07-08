@@ -172,9 +172,16 @@ padding-left: 3px;
 } 
 
 .carousel-caption h2{
-   font-size: 250%
+   font-size: 250%;
 }
 }
 @media (max-width: 576px){
+   .carousel-caption {
+   top: 40%;
+} 
+
+.carousel-caption h2{
+   font-size: 150%;
+}
 
 }
