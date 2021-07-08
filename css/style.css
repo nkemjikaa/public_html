@@ -142,7 +142,6 @@ padding-left: 3px;
 }
 
 .jumbotron{
-   padding: 1rem;
    border-radius: 0;
 
 }
@@ -159,7 +158,9 @@ padding-left: 3px;
 .fa-instagram:hover
 {
    color: #000;
+}
 
+ 
 /*---Media Queries --*/
 @media (max-width: 992px){
 
@@ -194,8 +195,5 @@ padding-left: 3px;
    -webkit-backface-visibility: visible;
    backface-visibility: visible;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
-}
+
 }
