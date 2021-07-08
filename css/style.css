@@ -183,5 +183,20 @@ padding-left: 3px;
 .carousel-caption h2{
    font-size: 150%;
 }
+.carousel-indicators{
+   display: none;
+}
 
+/*---Firefox Bug Fix --*/
+.carousel-item {
+   transition: -webkit- transform 0.5s ease;
+   transition: transform 0.5s ease;
+   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+   -webkit-backface-visibility: visible;
+   backface-visibility: visible;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
 }
