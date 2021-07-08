@@ -49,7 +49,10 @@ html,body {
 .logo {
 margin-top: 3px;
 }
-.logo:hover{
+.logo h1:hover,
+.logo h2:hover,
+.logo h3:hover,
+.logo p:hover{
    color: #000;
 }
 
