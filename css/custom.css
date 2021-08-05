@@ -1,0 +1,250 @@
+/* Method to declare your own fonts */
+@font-face {
+   font-family: cocaColaFont;
+   src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+@font-face {
+   font-family: OpenSans;
+   src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: Oswald;
+   src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap
+*/
+
+html,body {
+   height: 100%;
+   width: 100%;
+   font-family: Oswald;
+   color: #222;
+}
+.navbar {
+   padding: .8rem;
+}
+.bgred{
+   background: #F40009;
+}
+
+.navbar-nav li{
+   padding-right: 20px;
+   color: white;
+}
+.nav-link {
+   font-size: 1.1rem !important;
+}
+/* CSS rule to style the mobile logo */
+.logo {
+margin-top: 3px;
+}
+.logo h1:hover,
+.logo h2:hover,
+.logo h3:hover,
+.logo p:hover{
+   color: #000;
+}
+
+.logo h1 {
+font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
+font-size: 31px;
+margin: 0;
+margin-top: -10px;
+margin-bottom: -15px;
+float: left;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 2px;
+}
+
+.logo h2 {
+font-family: cocaColaFont;
+font-size: 31px;
+margin-top: -6px;
+margin-bottom: -15px;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 3px;
+float: left;
+}
+
+.logo h3 {
+font-size: 18px;
+margin-top: 0px;
+margin-bottom: -5px;
+padding-top: 0px;
+padding-left: 0px;
+float: left;
+}
+
+.logo p {
+font-size: 7px; /* You may have to tweak this to get a good fit */
+margin-top: 22px; /* You may have to tweak this to get a good fit */
+margin-bottom: 0px;
+padding-top: 0px;
+padding-left: 3px;
+}
+
+.carousel-inner img{
+   width: 100%;
+   height: 100%;
+}
+
+.carousel-caption {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-15%);
+} 
+
+.carousel-caption h2{
+   font-size: 400%;
+   text-transform: uppercase;
+   text-shadow: 20px 20px 10px #F40009;
+}
+
+.btn{
+   background-color: #F40009;
+   color: #fff;
+   border:  1px solid #fff;
+
+
+}
+
+.btn:hover, .btn:active, .btn:focus{
+   background-color: #fff;
+   color: #F40009;
+   border:  1px solid #fff;
+
+}
+
+.dropdown-menu{
+   background-color: #F40009;
+   color:  #fff;
+}
+.dropdown-item{
+   color: #fff;
+}
+
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus{
+   background-color: #fff;
+   color: #F40009;
+}
+
+.jumbotron{
+   border-radius: 0;
+}
+.more{
+   width: 100%;
+   margin-bottom: 2rem;
+}
+.bot{
+   max-width: 100%;
+}
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-instagram:hover
+{
+   color: #000;
+}
+
+.iframe-container{
+   position: relative;
+   width:100%;
+   padding-bottom:56.25%;
+   height:0;
+}
+.iframe-container iframe{
+   position: absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+
+}
+.gallery img{
+   width:345px;
+   padding:5px;
+   filter:grayscale(100%);
+   transition: 1s;
+}
+
+.gallery img:hover{
+   filter: grayscale(0);
+   transform:scale(1.1);
+
+}
+
+.gallery-header {
+    color: white;
+}
+
+    .gallery-header:hover {
+        color: green;
+        border: 1px solid transparent;
+    }
+
+.model3D {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+X3D, x3d {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 1.0);
+    width: 100%;
+    height: 100%
+}
+
+
+ 
+/*---Media Queries --*/
+@media (max-width: 992px){
+
+
+}
+@media (max-width: 768px){
+.carousel-caption {
+   top: 45%;
+} 
+
+.carousel-caption h2{
+   font-size: 250%;
+}
+}
+@media (max-width: 576px){
+   .carousel-caption {
+   top: 40%;
+} 
+
+.carousel-caption h2{
+   font-size: 150%;
+}
+.carousel-indicators{
+   display: none;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+   transition: -webkit- transform 0.5s ease;
+   transition: transform 0.5s ease;
+   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+   -webkit-backface-visibility: visible;
+   backface-visibility: visible;
+}
+
+}
